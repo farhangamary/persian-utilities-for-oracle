@@ -1,5 +1,6 @@
 create or replace
-Function Persian_To_Gregorian (InputDate varchar)
+Function Persian_To_Gregorian (InputDate varchar) 
+ -- The format for inout Persian dates is: 'YYYY/MM/DD'.
 Return Date
 Is
 PDate varchar(10);
